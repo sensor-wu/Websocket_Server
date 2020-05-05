@@ -108,7 +108,7 @@
         <RcItem Include="index.html">
             <ContainerId>ResourceItem</ContainerId>
             <ResourceType>RCDATA</ResourceType>
-            <ResourceId>Resource_1</ResourceId>
+            <ResourceId>index_html</ResourceId>
         </RcItem>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
