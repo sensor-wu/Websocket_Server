@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899-12-30 00:00:00.000.201,\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\Unit4.pas=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocketServer_Demo\uMainForm.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.756,=\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.624,=F:\iCenter-2017\iCenter_SVN\微信控件 - New\HTML（WX_DEMO）\WX_PAY_Demo\WX_Pay_H5\index.html</Transaction>
     <Transaction>1899-12-30 00:00:00.000.453,=\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.565,\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\Project1.dproj=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocketServer_Demo\WebSocketServer_Demo.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.201,\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\Unit4.dfm=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocketServer_Demo\uMainForm.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.756,=\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.201,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocketServer_Demo\uMainForm.dfm=\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\Unit4.dfm</Transaction>
     <Transaction>1899-12-30 00:00:00.000.663,=\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.201,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocketServer_Demo\uMainForm.pas=\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.624,=F:\iCenter-2017\iCenter_SVN\微信控件 - New\HTML（WX_DEMO）\WX_PAY_Demo\WX_Pay_H5\index.html</Transaction>
     <Transaction>1899-12-30 00:00:00.000.928,=\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.565,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocketServer_Demo\WebSocketServer_Demo.dproj=\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020-05-05 21:23:16.249,=F:\Git_2020\WeSocket_project\WebSocket_Demo\index.html</Transaction>
   </Transactions>
 </BorlandProject>
