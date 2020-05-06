@@ -2,8 +2,8 @@ object Form4: TForm4
   Left = 0
   Top = 0
   Caption = 'WebSocket Server DEMO (2020-05-01 '#31070#24030#28023#32435' - '#32769#21556')'
-  ClientHeight = 403
-  ClientWidth = 718
+  ClientHeight = 545
+  ClientWidth = 856
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
@@ -18,14 +18,15 @@ object Form4: TForm4
   object Panel_Button: TPanel
     Left = 0
     Top = 0
-    Width = 718
+    Width = 856
     Height = 49
     Align = alTop
     BevelOuter = bvNone
     ShowCaption = False
     TabOrder = 0
+    ExplicitWidth = 718
     DesignSize = (
-      718
+      856
       49)
     object SpeedButton1: TSpeedButton
       Left = 16
@@ -56,7 +57,7 @@ object Form4: TForm4
       ParentFont = False
     end
     object SpeedButton4: TSpeedButton
-      Left = 396
+      Left = 534
       Top = 7
       Width = 100
       Height = 32
@@ -69,9 +70,10 @@ object Form4: TForm4
       Font.Name = #24494#36719#38597#40657
       Font.Style = []
       ParentFont = False
+      ExplicitLeft = 396
     end
     object SpeedButton6: TSpeedButton
-      Left = 510
+      Left = 648
       Top = 7
       Width = 100
       Height = 32
@@ -84,9 +86,10 @@ object Form4: TForm4
       Font.Name = #24494#36719#38597#40657
       Font.Style = []
       ParentFont = False
+      ExplicitLeft = 510
     end
     object SpeedButton8: TSpeedButton
-      Left = 608
+      Left = 746
       Top = 7
       Width = 100
       Height = 32
@@ -99,20 +102,23 @@ object Form4: TForm4
       Font.Name = #24494#36719#38597#40657
       Font.Style = []
       ParentFont = False
+      ExplicitLeft = 608
     end
   end
   object Panel_Client: TPanel
     Left = 0
     Top = 49
-    Width = 718
-    Height = 354
+    Width = 856
+    Height = 496
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 1
+    ExplicitWidth = 718
+    ExplicitHeight = 354
     object Splitter1: TSplitter
       Left = 249
       Top = 0
-      Height = 354
+      Height = 496
       ExplicitLeft = 272
       ExplicitTop = 64
       ExplicitHeight = 100
@@ -121,10 +127,11 @@ object Form4: TForm4
       Left = 0
       Top = 0
       Width = 249
-      Height = 354
+      Height = 496
       Align = alLeft
       BevelOuter = bvLowered
       TabOrder = 0
+      ExplicitHeight = 354
       object Label_HandShakeTimeout: TLabel
         Left = 9
         Top = 48
@@ -372,21 +379,24 @@ object Form4: TForm4
     object Panel_Memo: TPanel
       Left = 252
       Top = 0
-      Width = 466
-      Height = 354
+      Width = 604
+      Height = 496
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 1
+      ExplicitWidth = 466
+      ExplicitHeight = 354
       object Panel2: TPanel
         Left = 0
         Top = 0
-        Width = 466
+        Width = 604
         Height = 89
         Align = alTop
         BevelOuter = bvLowered
         TabOrder = 0
+        ExplicitWidth = 466
         DesignSize = (
-          466
+          604
           89)
         object SpeedButton3: TSpeedButton
           Left = 22
@@ -419,7 +429,7 @@ object Form4: TForm4
         object Memo_Message: TMemo
           Left = 224
           Top = 16
-          Width = 231
+          Width = 369
           Height = 57
           Anchors = [akLeft, akTop, akRight]
           Color = 16316664
@@ -432,16 +442,18 @@ object Form4: TForm4
             'Send_Message')
           ParentFont = False
           TabOrder = 0
+          ExplicitWidth = 231
         end
       end
       object Panel3: TPanel
         Left = 0
         Top = 89
         Width = 225
-        Height = 265
+        Height = 407
         Align = alLeft
         BevelOuter = bvNone
         TabOrder = 1
+        ExplicitHeight = 265
         object Panel4: TPanel
           Left = 0
           Top = 0
@@ -467,35 +479,39 @@ object Form4: TForm4
           Left = 0
           Top = 41
           Width = 225
-          Height = 224
+          Height = 366
           Align = alClient
           BorderStyle = bsNone
           ItemHeight = 20
           PopupMenu = PopupMenu1
           TabOrder = 1
           OnClick = ListBox1Click
+          ExplicitHeight = 224
         end
       end
       object Panel5: TPanel
         Left = 225
         Top = 89
-        Width = 241
-        Height = 265
+        Width = 379
+        Height = 407
         Align = alClient
         BevelOuter = bvNone
         TabOrder = 2
+        ExplicitWidth = 241
+        ExplicitHeight = 265
         object Panel6: TPanel
           Left = 0
           Top = 0
-          Width = 241
+          Width = 379
           Height = 41
           Align = alTop
           BevelOuter = bvNone
           Color = clCream
           ParentBackground = False
           TabOrder = 0
+          ExplicitWidth = 241
           DesignSize = (
-            241
+            379
             41)
           object Label_Message: TLabel
             Left = 0
@@ -509,7 +525,7 @@ object Form4: TForm4
             ExplicitHeight = 20
           end
           object SpeedButton7: TSpeedButton
-            Left = 158
+            Left = 296
             Top = 6
             Width = 73
             Height = 29
@@ -529,8 +545,8 @@ object Form4: TForm4
         object Memo_Log: TMemo
           Left = 0
           Top = 41
-          Width = 241
-          Height = 224
+          Width = 379
+          Height = 366
           Align = alClient
           Color = clInfoBk
           Font.Charset = ANSI_CHARSET
@@ -544,6 +560,8 @@ object Form4: TForm4
           ReadOnly = True
           ScrollBars = ssBoth
           TabOrder = 1
+          ExplicitWidth = 241
+          ExplicitHeight = 224
         end
       end
     end
