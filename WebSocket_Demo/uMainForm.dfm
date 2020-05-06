@@ -615,8 +615,8 @@ object Form4: TForm4
   end
   object PopupMenu1: TPopupMenu
     AutoHotkeys = maManual
-    Left = 348
-    Top = 274
+    Left = 364
+    Top = 226
     object N1: TMenuItem
       Action = Action_ClientInfo
     end
