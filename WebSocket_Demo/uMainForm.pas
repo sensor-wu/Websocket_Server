@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uWebSocket_Component, Vcl.ExtCtrls,
   ShellAPI,
   Vcl.StdCtrls, System.Actions, Vcl.ActnList, Vcl.Buttons, Vcl.Samples.Spin,
-  Vcl.Menus;
+  Vcl.Menus, dxGDIPlusClasses;
 
 type
   TForm4 = class(TForm)
@@ -63,6 +63,7 @@ type
     Action_ClientInfo: TAction;
     PopupMenu1: TPopupMenu;
     N1: TMenuItem;
+    Image1: TImage;
     procedure Action_StartServerExecute(Sender: TObject);
     procedure Action_StopServerExecute(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -117,7 +118,7 @@ implementation
 procedure TForm4.Action_BroadcastExecute(Sender: TObject);
 begin
   WebSocket1.Broadcast(Memo_Message.Text);
-  Memo_Log.Lines.Add('广播消息发送: ' + Memo_Message.Text) ;
+  Memo_Log.Lines.Add('广播消息发送: ' + Memo_Message.Text + #13#10) ;
 end;
 
 procedure TForm4.Action_ClearExecute(Sender: TObject);
@@ -378,7 +379,7 @@ end;
 
 procedure TForm4.WebSocket1Connect(ClientID: string);
 begin
-  Memo_Log.Lines.Add('===客户端成功: ' + ClientID);
+  Memo_Log.Lines.Add('===客户端连接成功: ' + ClientID + #13#10);
 
   ListBox1.Items.Text := WebSocket1.Connections.Text;
 
@@ -389,7 +390,7 @@ procedure TForm4.WebSocket1DisConnect(ClientID: string);
 var
   ItemIndex : integer;
 begin
-  Memo_Log.Lines.Add('  xxx客户端断开: ' + ClientID);
+  Memo_Log.Lines.Add('  xxx客户端断开: ' + ClientID + #13#10);
 
   ItemIndex := ListBox1.Items.IndexOf(ClientID);
   ListBox1.Items.Delete(ItemIndex);
@@ -401,12 +402,12 @@ end;
 
 procedure TForm4.WebSocket1Error(ClientID, ErrorMsg: string);
 begin
-  Memo_Log.Lines.Add('出现错误(' + ClientID + '): ' + ErrorMsg);
+  Memo_Log.Lines.Add('出现错误(' + ClientID + '): ' + ErrorMsg+#13#10);
 end;
 
 procedure TForm4.WebSocket1Exception(Sender: TObject; ErrorMsg: string);
 begin
-  Memo_Log.Lines.Add('   xxxxx 出现异常: ' + ErrorMsg);
+  Memo_Log.Lines.Add('   xxxxx 出现异常: ' + ErrorMsg + #13#10);
 end;
 
 procedure TForm4.WebSocket1HandShake(ClientID, WebSocket_Key, WebSocket_Version,
@@ -416,13 +417,13 @@ begin
   Memo_Log.Lines.Add('         ClientID: ' + ClientID);
   Memo_Log.Lines.Add(    'WebSocket_Key: '+ WebSocket_Key);
   Memo_Log.Lines.Add('WebSocket_Version: ' + WebSocket_Version);
-  Memo_Log.Lines.Add('       User_Agent: ' + User_Agent);
+  Memo_Log.Lines.Add('       User_Agent: ' + User_Agent + #13#10);
   
 end;
 
 procedure TForm4.WebSocket1Message(ClientID, Text_Message: string);
 begin
-  Memo_Log.Lines.Add('收到消息(' + ClientID + '): ' + Text_Message);
+  Memo_Log.Lines.Add('收到消息(' + ClientID + '): ' + Text_Message + #13#10);
 end;
 
 procedure TForm4.WebSocket1Pong(ClientID, Text_Message: string);
@@ -432,12 +433,12 @@ end;
 
 procedure TForm4.WebSocket1Shutdown(Sender: TObject);
 begin
-  Memo_Log.Lines.Add('WebSocket 服务已经关闭!');
+  Memo_Log.Lines.Add('WebSocket 服务已经关闭!'#13#10);
 end;
 
 procedure TForm4.WebSocket1Startup(Sender: TObject);
 begin
-  Memo_Log.Lines.Add('WebSocket 服务已经成功打开!');
+  Memo_Log.Lines.Add('WebSocket 服务已经成功打开!'#13#10);
 end;
 
 end.
