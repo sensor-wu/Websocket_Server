@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899-12-30 00:00:00.000.963,=vcl.dcp</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.772,=rtl.dcp</Transaction>
     <Transaction>1899-12-30 00:00:00.000.105,=IndyCore.dcp</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.081,=IndySystem.dcp</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.971,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSocket.dproj=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSoket.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.285,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSocket.dproj=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSoket.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.135,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSocket.dproj=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\myWebSocket.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.550,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\myWebSocket.dproj=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSocket.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.171,=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\uWebSoket_Component.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.480,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\uWebSocket_Component.pas=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\uWebSoket_Component.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.244,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSoket.dproj=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\myWebSocket.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.746,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\LogFiles.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.956,\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\WebSoket.dproj=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSoket.dproj</Transaction>
     <Transaction>1899-12-30 00:00:00.000.750,=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\LogFiles.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.956,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSoket.dproj=\\vmware-host\Shared Folders\文稿\Embarcadero\Studio\Projects\WebSoket.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.963,=vcl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.550,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSocket.dproj=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\myWebSocket.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.081,=IndySystem.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.772,=rtl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.135,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\myWebSocket.dproj=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSocket.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.285,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSoket.dproj=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSocket.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.971,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSoket.dproj=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSocket.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.244,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\myWebSocket.dproj=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\WebSoket.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.746,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\LogFiles.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.480,F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\uWebSoket_Component.pas=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\uWebSocket_Component.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.171,=F:\iCenter-2017\iCenter_SVN\微信控件 - New\WebSoket\WebSocket_Component\uWebSoket_Component.pas</Transaction>
   </Transactions>
 </BorlandProject>
