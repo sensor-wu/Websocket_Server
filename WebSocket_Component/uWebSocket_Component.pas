@@ -868,7 +868,7 @@ begin
         WebSocket_Version := TRegEx.Match(inString,'Sec-WebSocket-Version: (.*)').Groups.Item[1].Value;
         User_Agent        := TRegEx.Match(inString,'User-Agent: (.*)').Groups.Item[1].Value;
 
-        if (Upgrade <> 'websocket') or (Connection <> 'Upgrade') or (WebSocket_Key = '') then  //说明不是WebSocket协议，退出
+        if (Upgrade <> 'websocket') or (Connection.IndexOf('Upgrade') = -1) or (WebSocket_Key = '') then  //说明不是WebSocket协议，退出
            begin
              Result   := False;
              ErrorMsg := '收到的握手数据流不正确(未包含 WebSocket_Key 字段)！';
